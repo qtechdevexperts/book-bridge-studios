@@ -8,7 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import LogosSlider from "@/components/Sliders/LogosSlider";
-import ModalForm from "@/components/ModalForm/ModalForm";
+import ModalForm from "@/components/ModalForm";
 
 export default function Home() {
   const settings = {

@@ -8,7 +8,7 @@ import ContactForm from "@/components/ContactForm/ContactForm";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
-import ModalForm from "@/components/Modalform/ModalForm";
+import ModalForm from "@/components/ModalForm";
 
 export default function Home() {
 
