@@ -11,7 +11,7 @@ import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
 import ModalForm from "@/components/ModalForm/ModalForm";
 
-export default function Portfolio() {
+export default function Home() {
 
   return (
     <>
