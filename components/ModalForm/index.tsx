@@ -34,20 +34,18 @@ export default function ModalForm() {
 
   const handleTextAreaChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setData({ ...data, [event.target.name]: event.target.value });
-    console.log(data);
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     try {
-      const response = await fetch("/submit_form.php", {
+      const response = await fetch("/api/mail/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-        
       });
 
       if (response.ok) {
