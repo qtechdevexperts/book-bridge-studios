@@ -21,10 +21,13 @@ function ContactForm() {
                 </Row>
                 <FloatingLabel controlId="floatingSelect" label="Book Writing" className="mb-3">
                     <Form.Select aria-label="Floating label select example">
-                        <option>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option>Select Service</option>
+                        <option value="1">Book Writing</option>
+                        <option value="2">Book Marketing</option>
+                        <option value="3">Book Cover Design</option>
+                        <option value="3">Book Proof Reading & Editing</option>
+                        <option value="3">Book Publishing</option>
+                        <option value="3">E-Book Writing & Publishing</option>
                     </Form.Select>
                 </FloatingLabel>
                 <FloatingLabel controlId="floatingTextarea2" label="Message" className="mb-3">

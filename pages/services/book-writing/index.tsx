@@ -9,6 +9,7 @@ import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <h2 className="heading">Tailored Book Writing Services for Every Genre and Niche</h2>
                 <p className="">At Book Bridge Studio, we take your ideas, experiences, and expertise and transform them into captivating words that deeply resonate with both you and your target audience. Our team of highly skilled and creative writers not only excel in a diverse array of genres and niches but also bring a delightful and collaborative approach to every project.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -119,7 +120,7 @@ export default function Home() {
                 <div className="btngroup">
                   <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
                   <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">

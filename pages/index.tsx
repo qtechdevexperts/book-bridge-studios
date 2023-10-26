@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import LogosSlider from "@/components/Sliders/LogosSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
   const settings = {
@@ -35,7 +36,7 @@ export default function Home() {
                 <h2 className="heading">Let&apos;s Get Amazon Publishing Services!</h2>
                 <p className="">Don&apos;t make your manuscript wait – get Kindle self publishing with Book Bridge Studio – It&apos;s easy and ROI-positive.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -118,7 +119,7 @@ export default function Home() {
                   <li>Author Website Design</li>
                 </ul>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                <ModalForm />
                   <Button variant="outline">Live Chat</Button>
                 </div>
               </Col>
@@ -209,9 +210,9 @@ export default function Home() {
                 <h2 className="mheading">Work With a Fantastic Group of Book Bridge Studio</h2>
                 <p>Discover the amazing world of books with Book Bridge Studio! Get closer to having your book published on Amazon through Kindle Direct Publishing.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <Button variant="black" className="me-2" href="tel:1230004444">Call Us 123-000-4444</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">
@@ -239,7 +240,7 @@ export default function Home() {
                   <li>Custom illustrations</li>
                 </ul>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                <ModalForm />
                   <Button variant="outline">Live Chat</Button>
                 </div>
               </Col>

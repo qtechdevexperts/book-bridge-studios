@@ -9,6 +9,7 @@ import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <p className="">Whether a blog post, guest piece, or ad copy, the written content is frequently a company&apos;s first role to make an impression on a potential consumer.</p>
                 <p className="">We write SEO-friendly articles that attract and retain readers. Use Book Bridge Studio article ghostwriting services as a stepping stone to a successful customer experience.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -295,7 +296,7 @@ export default function Home() {
                 <div className="btngroup">
                   <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
                   <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">
@@ -382,7 +383,7 @@ export default function Home() {
               <h2 className="mheading">Cons</h2>
             </div>
             <div className="row mb-4">
-             
+
               <div className="col-md-6 col-lg-4 mb-3">
                 <div className="card h-100">
                   <div className="card-body text-center">
