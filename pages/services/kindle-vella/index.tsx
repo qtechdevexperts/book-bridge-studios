@@ -9,6 +9,7 @@ import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
 

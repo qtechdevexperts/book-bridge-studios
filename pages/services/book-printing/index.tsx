@@ -9,6 +9,7 @@ import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <h2 className="heading">Your Source for Book Printing and Delivery Services of the Highest Quality.</h2>
                 <p className="">Book Bridge Studio understands both the expectations of authors and readers, having completed hundreds of book printing projects last year. Whether you require 100 or 10,000 copies, Book Bridge Studio has your back!</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -61,7 +62,7 @@ export default function Home() {
               <Col lg="6" className="align-self-center">
                 <h2 className="heading">Written, Formatted, And Designed, Your Book Is Complete. Next Steps?</h2>
                 <p>Once a book has been completed, the next stage is its publication and printing. We assist in making your book a cherished heirloom and relieve you of the trouble of locating a printer. Our book printing and shipping services are unfailingly individualized, immutable, and practical. In our master-certified in-house printing business, Book Bridge Studio is committed to producing books of the highest quality.
-Every book we print in our facility satisfies the stringent requirements of digital printing, whether offset printing, print-on-demand, or short-run printing. Our printing press handles your books with extreme care and finesse.</p>
+                  Every book we print in our facility satisfies the stringent requirements of digital printing, whether offset printing, print-on-demand, or short-run printing. Our printing press handles your books with extreme care and finesse.</p>
               </Col>
               <Col lg="6" className="text-lg-end d-lg-block d-none">
                 <Image src="https://res.cloudinary.com/dxabcda5t/image/upload/c_scale,q_40,w_800/v1698061885/Defiscoquins/book-bridge/portfolio/creative-bok_ew09tg.webp" className="img-fluid" alt="img" />
@@ -121,7 +122,7 @@ Every book we print in our facility satisfies the stringent requirements of digi
                 <div className="btngroup">
                   <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
                   <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">

@@ -8,6 +8,7 @@ import ContactForm from "@/components/ContactForm/ContactForm";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/Modalform/ModalForm";
 
 export default function Home() {
 
@@ -27,7 +28,7 @@ export default function Home() {
                 <h2 className="heading">Elevate Your E-Book with Our Customized Writing Services</h2>
                 <p className="">Our team of expert e-book writers offers affordable prices for your e-books with added benefits that elevate the quality of your writing. We are passionate about transforming your basic ideas into captivating e-books that leave a lasting impact. Let us deliver your magnificent e-book today.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -118,7 +119,7 @@ export default function Home() {
                 <div className="btngroup">
                   <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
                   <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">

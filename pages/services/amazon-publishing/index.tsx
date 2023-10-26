@@ -9,6 +9,7 @@ import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import BannerForm from "@/components/ContactForm/BannerForm";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import PortfolioSlider from "@/components/Sliders/PortfolioSlider";
+import ModalForm from "@/components/ModalForm/ModalForm";
 
 export default function Home() {
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <h2 className="heading">Let our Amazon Publishing Services help you get your Book Published</h2>
                 <p className="">Thousands of authors have spent many hours laboring over a manuscript, only to have it rejected by a publishing house for inexplicable reasons. Here at Book Bridge Studio, we offer services to help ambitious writers overcome the many &qout;strange reasons&qout; that prevent them from realizing their goals. If you&apos;re an aspiring author, our team of expert ghostwriting professionals can help you make your mark on Amazon and gain the recognition you deserve.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2">Get A Quote</Button>
+                  <ModalForm />
                   <Button variant="outline">Get Started</Button>
                 </div>
               </Col>
@@ -120,7 +121,7 @@ export default function Home() {
                 <div className="btngroup">
                   <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
                   <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
-                  <Button variant="black" className="mb-2">Get A Quote</Button>
+                  <ModalForm />
                 </div>
               </Col>
               <Col lg="6" className="d-lg-block d-none">
