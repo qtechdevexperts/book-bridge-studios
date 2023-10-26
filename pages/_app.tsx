@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-video.css";
 import '@/styles/icomoon/style.css';
 import '@/styles/globals.scss'
 import type { AppProps } from 'next/app'
