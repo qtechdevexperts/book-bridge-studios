@@ -419,55 +419,59 @@ export default function Portfolio() {
 
         <section className="cta-sec">
           <div className="container">
-            <Col lg="6" className="align-self-center">
-              <h2 className="mheading">
-                Need To Do a Book Discussion with an Expert?
-              </h2>
-              <p>
-                We want to earn your lifelong trust by the superior quality of
-                our service.
-              </p>
-              <div className="btngroup">
-                <Button
-                  variant="black"
-                  className="me-2 mb-2"
-                  href="tel:1230004444"
-                >
-                  Call Us 123-000-4444
-                </Button>
-                <Button variant="outline" className="me-2 mb-2">
-                  Live Chat
-                </Button>
-                <ModalForm />
-              </div>
-            </Col>
-            <Col lg="6" className="d-lg-block d-none">
-              <Image
-                src="https://res.cloudinary.com/dxabcda5t/image/upload/v1698045636/Defiscoquins/book-bridge/goodbad_mv0ous.webp"
-                className="img-fluid"
-                alt="img"
-              />
-            </Col>
+            <div className="row">
+              <Col lg="6" className="align-self-center">
+                <h2 className="mheading">
+                  Need To Do a Book Discussion with an Expert?
+                </h2>
+                <p>
+                  We want to earn your lifelong trust by the superior quality of
+                  our service.
+                </p>
+                <div className="btngroup">
+                  <Button
+                    variant="black"
+                    className="me-2 mb-2"
+                    href="tel:1230004444"
+                  >
+                    Call Us 123-000-4444
+                  </Button>
+                  <Button variant="outline" className="me-2 mb-2">
+                    Live Chat
+                  </Button>
+                  <ModalForm />
+                </div>
+              </Col>
+              <Col lg="6" className="d-lg-block d-none">
+                <Image
+                  src="https://res.cloudinary.com/dxabcda5t/image/upload/v1698045636/Defiscoquins/book-bridge/goodbad_mv0ous.webp"
+                  className="img-fluid"
+                  alt="img"
+                />
+              </Col>
+            </div>
           </div>
         </section>
 
         <section className="section-padding bg-grey-grad">
           <div className="container">
-            <Col lg="6" className="align-self-center pe-lg-4">
-              <h2 className="mheading">Send Us a Message</h2>
-              <p>
-                Please fill out your details, and our team will contact you
-                soon.
-              </p>
-              <ContactForm />
-            </Col>
-            <Col lg="6" className="ps-lg-4 d-lg-block d-none">
-              <Image
-                src="https://res.cloudinary.com/dxabcda5t/image/upload/v1698045637/Defiscoquins/book-bridge/rectangle-11-2_d4kmap.webp"
-                className="img-fluid"
-                alt="contactimg"
-              />
-            </Col>
+            <div className="row">
+              <Col lg="6" className="align-self-center pe-lg-4">
+                <h2 className="mheading">Send Us a Message</h2>
+                <p>
+                  Please fill out your details, and our team will contact you
+                  soon.
+                </p>
+                <ContactForm />
+              </Col>
+              <Col lg="6" className="ps-lg-4 d-lg-block d-none">
+                <Image
+                  src="https://res.cloudinary.com/dxabcda5t/image/upload/v1698045637/Defiscoquins/book-bridge/rectangle-11-2_d4kmap.webp"
+                  className="img-fluid"
+                  alt="contactimg"
+                />
+              </Col>
+            </div>
           </div>
         </section>
 
