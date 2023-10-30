@@ -16,7 +16,7 @@ function Footer() {
                             </Link>
                             <p>We produce books that influence the literary sphere and enhance your worth as an author. We collaborate with you to produce the best possible results that align with your goals, engage your audience and create a buzz around your book.</p>
                         </Col>
-                        <Col lg="4" sm="6">
+                        <Col lg="3" sm="4">
                             <h5 className="title">Services</h5>
                             <ul className="footer-links">
                                 <li><Link href="/services/ebook-writing">E-book Writing &amp; Publishing</Link></li>
@@ -31,7 +31,7 @@ function Footer() {
                                 <li><Link href="/services/article-writing-services">Article Writing</Link></li>
                             </ul>
                         </Col>
-                        <Col lg="4" sm="6">
+                        <Col lg="2" sm="4">
                             <h5 className="title">Company</h5>
                             <ul className="footer-links">
                                 <li><Link href={"/testimonials"}>Testimonials</Link></li>
@@ -39,6 +39,12 @@ function Footer() {
                                 <li><Link href={"/portfolio"}>Portfolio</Link></li>
                                 <li><Link href={"/contact-us"}>Contact Us</Link></li>
                             </ul>
+                        </Col>
+                        <Col lg="3" sm="4">
+                            <h5 className="title">Contact Info</h5>
+                            <p className="mb-2"><span className="icon-Call pe-2"></span> (323) 614-0274</p>
+                            <p className="mb-2"><span className="icon-email_letter_mail_message_icon-1 pe-2"></span>info@bookbridgestudio.com</p>
+                            <p className="mb-2"><span className="icon-location_on_icon pe-2"></span>205 Jumping Brook Rd Neptune Township, New Jersey</p>
                         </Col>
                     </Row>
 
@@ -51,8 +57,8 @@ function Footer() {
                             <p>Copyright © 2023 Book Bridge Studio . All Rights Reserved.</p>
                         </Col>
                         <Col className="text-lg-end text-center" lg="6">
-                            <Link href={"#"} className="me-2">Privacy Policy</Link>
-                            <Link href={"#"}>Terms & Conditions</Link>
+                            <Link href={"/privacy-policy"} className="me-2">Privacy Policy</Link>
+                            <Link href={"/terms-and-conditions"}>Terms & Conditions</Link>
                         </Col>
                     </Row>
                 </div>

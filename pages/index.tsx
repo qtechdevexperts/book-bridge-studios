@@ -9,6 +9,7 @@ import ContactForm from "@/components/ContactForm/ContactForm";
 import TestimonialSlider from "@/components/Sliders/TestimonialSlider";
 import LogosSlider from "@/components/Sliders/LogosSlider";
 import ModalForm from "@/components/ModalForm";
+import Link from "next/link";
 
 export default function Home() {
   const settings = {
@@ -77,20 +78,18 @@ export default function Home() {
                   </div>
                   <div className="col-lg">
                     <select className="classic form-select" name="service" data-name="service">
-                      <optgroup label="&nbsp; Select Services">
-                        <option value="Book Writing " data-amt="16" data-deadline="1">Book Writing
-                        </option>
-                        <option value="Book Marketing " data-amt="16" data-deadline="1">Book Marketing
-                        </option>
-                        <option value="Book Cover Design" data-amt="50" data-deadline="1">Book Cover
-                          Design </option>
-                        <option value="Book Proof Reading & Editing" data-amt="50" data-deadline="1">
-                          Book Proof Reading & Editing</option>
-                        <option value="Book Publishing" data-amt="50" data-deadline="1">Book Publishing
-                        </option>
-                        <option value="E-Book Writing & Publishing" data-amt="50" data-deadline="1">
-                          E-Book Writing & Publishing</option>
-                      </optgroup>
+                      <option value="">Select Service</option>
+                      <option value="Book Writing">Book Writing</option>
+                      <option value="E-Book Writing">E-Book Writing</option>
+                      <option value="E-Book Editing & Proofreading">E-Book Editing & Proofreading</option>
+                      <option value="Book Cover Design">Book Cover Design</option>
+                      <option value="Book Illustrations">Book Illustrations</option>
+                      <option value="Book Publishing">Book Publishing</option>
+                      <option value="Book Printing">Book Printing</option>
+                      <option value="Book Marketing">Book Marketing</option>
+                      <option value="Authors Website">Authors Website</option>
+                      <option value="Amazon Publishing">Amazon Publishing</option>
+                      <option value="Article Writing">Article Writing</option>
                     </select>
                   </div>
                   <div className="col-lg bnr-form-btn">
@@ -119,7 +118,7 @@ export default function Home() {
                   <li>Author Website Design</li>
                 </ul>
                 <div className="btngroup">
-                <ModalForm />
+                  <ModalForm />
                   <Button variant="outline">Live Chat</Button>
                 </div>
               </Col>
@@ -151,7 +150,7 @@ export default function Home() {
                       skillset comes into play. Our genre and niche-specific writers are seasoned
                       champions who have a habit of producing meticulously written books.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
+                  <Link href="/services/book-writing" className="read-txt">Read More</Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 mb-lg-0 mb-3">
@@ -167,7 +166,7 @@ export default function Home() {
                       feedback.</p>
                   </div>
 
-                  <a href="proofreading.html" className="read-txt">Read More</a>
+                  <Link href="/services/proofreading" className="read-txt">Read More</Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 mb-lg-0 mb-3">
@@ -180,7 +179,7 @@ export default function Home() {
                       the
                       best possible reading experience for your book’s target audience. </p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
+                  <Link href="/services/book-publishing" className="read-txt">Read More</Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 mb-lg-0 mb-3">
@@ -195,7 +194,7 @@ export default function Home() {
                       you through our ROI-focused marketing techniques and drive traction to your book.
                     </p>
                   </div>
-                  <a href="book-marketing.html" className="read-txt">Read More</a>
+                  <Link href="/services/book-marketing" className="read-txt">Read More</Link>
                 </div>
               </div>
 
@@ -210,7 +209,7 @@ export default function Home() {
                 <h2 className="mheading">Work With a Fantastic Group of Book Bridge Studio</h2>
                 <p>Discover the amazing world of books with Book Bridge Studio! Get closer to having your book published on Amazon through Kindle Direct Publishing.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2" href="tel:1230004444">Call Us 123-000-4444</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
                   <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
@@ -240,7 +239,7 @@ export default function Home() {
                   <li>Custom illustrations</li>
                 </ul>
                 <div className="btngroup">
-                <ModalForm />
+                  <ModalForm />
                   <Button variant="outline">Live Chat</Button>
                 </div>
               </Col>

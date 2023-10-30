@@ -83,7 +83,6 @@ export default function Home() {
                     <h3>Experts on platforms</h3>
                     <p>We have a team of experienced publishing agents who can assist or guide you through the maze of options available.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -93,8 +92,6 @@ export default function Home() {
 
                     <p>When you provide us with a first draft and any special instructions for the project, we will deliver our best to live up to your standards and offer constructive criticism.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -103,7 +100,6 @@ export default function Home() {
                     <h3>Customized Service</h3>
                     <p>We&apos;ll assign a seasoned book publishing expert to your project based on your needs. All of your requests are carefully considered.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
 
@@ -119,8 +115,8 @@ export default function Home() {
                 <h2 className="mheading">Need To Do a Book Discussion with an Expert?</h2>
                 <p>We want to earn your lifelong trust by the superior quality of our service.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>

@@ -81,7 +81,6 @@ export default function Home() {
                     <h3>Extensive Expertise</h3>
                     <p>We reach for the stars and beyond with our diverse team of specialists in multiple genres. Whether it&apos;s history, autobiography, or any other genre, we guarantee exceptional content quality and unparalleled support.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -91,8 +90,6 @@ export default function Home() {
 
                     <p>We understand the gravity and importance of matching you with the right eBook expert for your desired genre. By carefully listening to your instructions, we create a tailored outline and deliver a completed book within the promised timeframe.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -101,7 +98,6 @@ export default function Home() {
                     <h3>Seamless Client Communication</h3>
                     <p>Every writing project or client is unique to us. We prioritize effective and empathetic client communication throughout the entire process, ensuring a personalized and satisfying experience.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
 
@@ -117,8 +113,8 @@ export default function Home() {
                 <h2 className="mheading">Take your book to the next level with our help</h2>
                 <p>We&apos;ll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>

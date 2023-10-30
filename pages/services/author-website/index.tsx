@@ -83,7 +83,6 @@ export default function Home() {
                     <h3>Turning Readers Away</h3>
                     <p>If your present website (or lack thereof) isn&apos;t professional, well-designed, and offers a clear user journey, you&apos;re already losing readers and book purchases.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -93,8 +92,6 @@ export default function Home() {
 
                     <p>If people interested in reading your work have a bad picture of you when they research you online, all your hard work will be useless.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -103,7 +100,6 @@ export default function Home() {
                     <h3>Lost Publicity Opportunity</h3>
                     <p>You can lose out on opportunities with publishers, promoters, and media scouts because your website seems unprofessional.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
 
@@ -119,8 +115,8 @@ export default function Home() {
                 <h2 className="mheading">Join us as to publish a top-selling book</h2>
                 <p>We&apos;ll help you put your thoughts into a book that you can be proud to share</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>

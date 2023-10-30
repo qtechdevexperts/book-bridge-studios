@@ -148,7 +148,7 @@ export default function GlobalContactForm() {
         </Row>
         <FloatingLabel
           controlId="floatingSelect"
-          label="Book Writing"
+          label=""
           className="mb-3"
         >
           <Form.Select
@@ -158,15 +158,16 @@ export default function GlobalContactForm() {
           >
             <option value="">Select Service</option>
             <option value="Book Writing">Book Writing</option>
-            <option value="Book Marketing">Book Marketing</option>
+            <option value="E-Book Writing">E-Book Writing</option>
+            <option value="E-Book Editing & Proofreading">E-Book Editing & Proofreading</option>
             <option value="Book Cover Design">Book Cover Design</option>
-            <option value="Book Proof Reading & Editing">
-              Book Proof Reading & Editing
-            </option>
+            <option value="Book Illustrations">Book Illustrations</option>
             <option value="Book Publishing">Book Publishing</option>
-            <option value="E-Book Writing & Publishing">
-              E-Book Writing & Publishing
-            </option>
+            <option value="Book Printing">Book Printing</option>
+            <option value="Book Marketing">Book Marketing</option>
+            <option value="Authors Website">Authors Website</option>
+            <option value="Amazon Publishing">Amazon Publishing</option>
+            <option value="Article Writing">Article Writing</option>
           </Form.Select>
         </FloatingLabel>
         <FloatingLabel
@@ -193,9 +194,8 @@ export default function GlobalContactForm() {
             </div>
           )}
           <p
-            className={`text-center d-block w-100 ${
-              result.error ? "text-danger" : ""
-            } ${result.success ? "text-success" : ""} `}
+            className={`text-center d-block w-100 ${result.error ? "text-danger" : ""
+              } ${result.success ? "text-success" : ""} `}
           >
             {result.message}
           </p>

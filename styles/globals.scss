@@ -1,7 +1,7 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 :root,
-[data-bs-theme=light] {
+[data-bs-theme="light"] {
   --bs-primary: #0872ba;
   --bs-primary-rgb: 8, 114, 186;
   --bs-link-color: #0872ba;
@@ -18,7 +18,7 @@ input::-webkit-inner-spin-button {
   /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
   /* Firefox */
 }
@@ -30,6 +30,18 @@ body {
 
   @media (max-width: 1440px) {
     font-size: 14px;
+  }
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
 
@@ -74,7 +86,7 @@ body {
 
     &.active,
     &.show {
-      color: $white
+      color: $white;
     }
   }
 
@@ -190,11 +202,9 @@ body {
             color: #ffffff91;
           }
         }
-
       }
     }
   }
-
 }
 
 .btn {
@@ -220,7 +230,6 @@ body {
     color: $black;
 
     &.btn {
-
       &:hover,
       &:focus,
       &:active {
@@ -237,7 +246,6 @@ body {
     color: $white;
 
     &.btn {
-
       &:hover,
       &:focus,
       &:active {
@@ -254,7 +262,6 @@ body {
     color: $black;
 
     &.btn {
-
       &:hover,
       &:focus,
       &:active {
@@ -314,7 +321,7 @@ a {
 }
 
 hr {
-  border-color: #D2D2D2;
+  border-color: #d2d2d2;
 }
 
 .section-padding {
@@ -377,7 +384,6 @@ hr {
   }
 }
 
-
 // Hero Section
 .hero-section {
   position: relative;
@@ -400,7 +406,11 @@ hr {
 
   @media (max-width: 991px) {
     height: auto;
-    background: linear-gradient(271deg, #bdbdbd 25.28%, rgba(255, 255, 255, 0.00) 80.81%);
+    background: linear-gradient(
+      271deg,
+      #bdbdbd 25.28%,
+      rgba(255, 255, 255, 0) 80.81%
+    );
   }
 }
 
@@ -432,13 +442,12 @@ hr {
   }
 }
 
-
 .form-sec {
   background: $black;
   padding: 40px 0;
 
   form {
-    width: 100%
+    width: 100%;
   }
 
   .form-div {
@@ -464,7 +473,7 @@ hr {
       &.form-control {
         &::placeholder {
           color: $white;
-          opacity: .8
+          opacity: 0.8;
         }
       }
     }
@@ -484,7 +493,6 @@ hr {
         font-size: 14px;
       }
     }
-
   }
 }
 
@@ -492,16 +500,16 @@ hr {
   box-shadow: none;
   padding: 10px 20px;
   border-radius: 6px;
-  background: #C3C3C380;
+  background: #c3c3c380;
   color: #000;
-  border-color: #9C9C9C;
+  border-color: #9c9c9c;
 
   &:focus {
     box-shadow: none;
   }
 
   &::placeholder,
-  ~label {
+  ~ label {
     font-weight: 500;
   }
 }
@@ -510,25 +518,28 @@ hr {
   box-shadow: none;
   padding: 10px 20px;
   border-radius: 6px;
-  background-color: #C3C3C380;
+  background-color: #c3c3c380;
   color: #000;
-  border-color: #9C9C9C;
+  border-color: #9c9c9c;
 
   &:focus {
     box-shadow: none;
   }
 }
 
-.form-floating>.form-select~label::after {
+.form-floating>.form-select {
+  padding: 0 14px;
+}
+
+.form-floating > .form-select ~ label::after {
   background: transparent;
 }
 
-.form-floating>.form-select~label {
+.form-floating > .form-select ~ label {
   padding: 14px 20px;
 }
 
-.form-floating> {
-
+.form-floating > {
   .form-control,
   .form-control-plaintext {
     @media (max-width: 767px) {
@@ -553,7 +564,7 @@ hr {
       font-size: 14px;
     }
 
-    ~label {
+    ~ label {
       @media (max-width: 767px) {
         padding: 10px;
       }
@@ -597,7 +608,6 @@ hr {
   }
 }
 
-
 .ser-box {
   text-align: center;
   padding: 20px;
@@ -608,7 +618,7 @@ hr {
   height: 100%;
   display: grid;
   align-content: space-between;
-  transition: all .3s;
+  transition: all 0.3s;
 
   h3 {
     position: relative;
@@ -618,7 +628,7 @@ hr {
     margin-bottom: 10px;
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 50%;
       bottom: 0;
@@ -682,7 +692,6 @@ hr {
 
 // How It Work
 
-
 // Testimonial
 .testimonial {
   position: relative;
@@ -706,7 +715,7 @@ hr {
 
       &:before {
         font-size: 35px;
-        font-family: 'icomoon';
+        font-family: "icomoon";
         color: $black;
 
         @media (max-width: 991px) {
@@ -757,13 +766,29 @@ hr {
         font-size: 14px;
       }
     }
+    p:last-child {
+      max-height: 200px;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    }
   }
 
   .profile {
     position: relative;
 
     &:after {
-      content: '';
+      content: "";
       background-image: url(../public/images/comma.svg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -822,7 +847,7 @@ hr {
 }
 
 .getintouch {
-  box-shadow: 0px 10px 80px rgba(41, 41, 41, 0.10);
+  box-shadow: 0px 10px 80px rgba(41, 41, 41, 0.1);
   border-radius: 10px;
 
   .title {
@@ -850,7 +875,7 @@ hr {
       height: 30px;
       width: 30px;
       display: inline-flex;
-      background: #0872BA;
+      background: #0872ba;
       justify-content: center;
       align-items: center;
       border-radius: 50%;
@@ -869,7 +894,7 @@ hr {
 //     border-color: $black;
 //     box-shadow: none;
 //   }
-// } 
+// }
 // Accordian
 .accordion {
   background: transparent;
@@ -877,7 +902,7 @@ hr {
   .accordion-item {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #98BEC9;
+    border-bottom: 1px solid #98bec9;
     padding: 20px 0;
     border-radius: 0;
 
@@ -889,7 +914,7 @@ hr {
       background: transparent;
       padding: 12px 0px;
       font-size: 40px;
-      color: #102E51;
+      color: #102e51;
 
       @media (max-width: 1440px) {
         font-size: 28px;
@@ -905,7 +930,7 @@ hr {
         font-weight: 700;
 
         span {
-          background: #102E51;
+          background: #102e51;
           color: #fff;
         }
       }
@@ -913,7 +938,7 @@ hr {
       span {
         width: 50px;
         height: 50px;
-        border: 1px solid #102E51;
+        border: 1px solid #102e51;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -941,7 +966,7 @@ hr {
       position: relative;
 
       &:before {
-        content: '';
+        content: "";
         height: 50px;
         width: 2px;
         background: #102e51;
@@ -950,7 +975,6 @@ hr {
         top: 20px;
       }
     }
-
   }
 }
 
@@ -975,7 +999,7 @@ hr {
   }
 }
 
-// inner banner 
+// inner banner
 .small-banner {
   position: relative;
   background: #d6d6d6;
@@ -1064,7 +1088,7 @@ hr {
 
     &:before {
       font-size: 35px;
-      font-family: 'icomoon';
+      font-family: "icomoon";
       color: $black;
 
       @media (max-width: 767px) {
@@ -1072,8 +1096,6 @@ hr {
       }
     }
   }
-
-
 }
 
 .portfolio-sec {
@@ -1147,7 +1169,6 @@ hr {
       }
 
       &.active {
-
         h4,
         p {
           color: $black;
@@ -1159,7 +1180,6 @@ hr {
       }
     }
   }
-
 }
 
 .listsec {
@@ -1171,7 +1191,7 @@ hr {
 
   h2 {
     text-align: center;
-    padding-bottom: 20px
+    padding-bottom: 20px;
   }
 
   .wrap {
@@ -1191,11 +1211,11 @@ hr {
         position: relative;
 
         &.br {
-          border-right: 1px solid #bbbecc
+          border-right: 1px solid #bbbecc;
         }
 
         &.bb {
-          border-bottom: 1px solid #bbbecc
+          border-bottom: 1px solid #bbbecc;
         }
 
         p {
@@ -1208,19 +1228,19 @@ hr {
           &:before {
             content: "\e92d";
             position: absolute;
-            font-family: 'icomoon';
+            font-family: "icomoon";
             left: 0;
             font-size: 16px;
             color: #bbbecc;
             display: table-cell;
-            vertical-align: middle
+            vertical-align: middle;
           }
         }
 
         &:hover {
           p {
             &:before {
-              color: #1e7b85
+              color: #1e7b85;
             }
           }
         }
@@ -1231,13 +1251,13 @@ hr {
       margin-top: 20px;
       color: #8b92af;
       font-size: 24px;
-      font-weight: 500
+      font-weight: 500;
     }
 
     span {
       color: #2c2c2c;
       font-size: 18px;
-      font-weight: 400
+      font-weight: 400;
     }
   }
 }
@@ -1255,7 +1275,6 @@ hr {
       margin-bottom: 10px;
     }
   }
-
 
   @media (max-width: 991px) {
     padding: 60px 0 0;
@@ -1319,7 +1338,6 @@ hr {
     color: $white;
     font-weight: 600;
   }
-
 }
 
 .footer-copyright {

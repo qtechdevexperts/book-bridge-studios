@@ -174,7 +174,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <h6>Do you want to get Genre-specific Book Services?</h6>
-                  <span>Give us a call <a href="tel:+18885311665">Toll Free (888) 531-1665</a>
+                  <span>Give us a call <a href="tel:+18885311665">(323) 614-0274</a>
                   </span>
                 </div>
               </div>
@@ -189,8 +189,8 @@ export default function Home() {
                 <h2 className="mheading">Need To Do a Book Discussion with an Expert?</h2>
                 <p>We want to earn your lifelong trust by the superior quality of our service.</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>

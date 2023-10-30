@@ -83,7 +83,6 @@ export default function Home() {
                     <h3>Widespread Expertise</h3>
                     <p>With Book Bridge Studio the sky is your limit. Our experienced team of bookmarketeers has writers specialised in multiple genres. Whether it&apos;s an autobiography, a piece of fiction, or a well-researched business publication – we ensure exceptional quality and unparalleled service.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -93,8 +92,6 @@ export default function Home() {
 
                     <p>Based on your unique requirements and genre, we assign an expert to your project. We patiently listen to your instructions, formulate a schematic outline, and complete it within the estimated time promised.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -103,7 +100,6 @@ export default function Home() {
                     <h3>Client Communication</h3>
                     <p>For us, no two clients and projects are alike. We offer a bespoke service and henceforth, we keep a particular emphasis on effective client communication to walk you through every step of the process. We stay true to our word and offer 100% client satisfaction.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
 
@@ -119,8 +115,8 @@ export default function Home() {
                 <h2 className="mheading">Take your book to the next level with our help</h2>
                 <p>We&apos;ll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>

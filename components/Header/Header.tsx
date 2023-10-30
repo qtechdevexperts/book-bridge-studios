@@ -67,7 +67,7 @@ function CollapsibleExample() {
                                 <Nav.Link href={"/testimonials"} className={splitLocation[1] === "testimonials" ? "active" : ""}>Testimonials</Nav.Link>
                                 <Nav.Link href={"/about-us"} className={splitLocation[1] === "about-us" ? "active" : ""}>About Us</Nav.Link>
                                 <Nav.Link href={"/contact-us"} className={splitLocation[1] === "contact-us" ? "active" : ""}>Contact Us</Nav.Link>
-                                <Nav.Link href={"tel:0001110000"} ><i className="icon-Call"></i> (000) 111 - 0000</Nav.Link>
+                                <Nav.Link href={"tel:3236140274"} ><i className="icon-Call"></i> (323) 614-0274</Nav.Link>
                                 <Button variant='white' href="/contact-us">Chat With Us</Button>
                             </Nav>
 

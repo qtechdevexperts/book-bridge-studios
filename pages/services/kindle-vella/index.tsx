@@ -82,7 +82,6 @@ export default function Home() {
                     <h3>Extensive Expertise Across Various Genres and Niches</h3>
                     <p>At Book Bridge Studio, we transcend boundaries. Our team of experienced writers specializes in a wide range of genres and niches. Whether it&apos;s an autobiography, fiction, or a meticulously researched business publication, we guarantee exceptional quality and unparalleled service.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -92,8 +91,6 @@ export default function Home() {
 
                     <p>We understand that every book project is unique. That&apos;s why we assign a dedicated team of writers specifically chosen to match your genre and niche requirements. We attentively listen to your instructions, carefully craft an outline, and meticulously develop your manuscript into a complete book within the agreed-upon timeframe.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-lg-0 mb-3">
@@ -118,8 +115,8 @@ export default function Home() {
                 <h2 className="mheading">Take your book to the next level with our help</h2>
                 <p>We&apos;ll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <Button variant="black" className="mb-2">Get A Quote</Button>
                 </div>
               </Col>

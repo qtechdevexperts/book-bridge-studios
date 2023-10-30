@@ -85,7 +85,6 @@ export default function Home() {
                     <h3>Children&apos;s Book Illustrations</h3>
                     <p>Understanding the importance of children&apos;s book illustrations, Book Bridge Studio offers professional illustration services and ghostwriting services. Our team of creators comprises highly skilled and seasoned illustrators who specialize in illustrations that captivate children&apos;s minds.</p>
                   </div>
-                  <a href="book-writing.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-3">
@@ -95,8 +94,6 @@ export default function Home() {
 
                     <p>Book Bridge Studio researches the author&apos;s written content to generate educational, uncluttered prints for both digital and print textbooks. We rely on basic designs, consistent color schemes, and visual storytelling to enhance learning. This includes illustration strategies tailored to the educational subject matter.</p>
                   </div>
-
-                  <a href="proofreading.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-3">
@@ -105,7 +102,6 @@ export default function Home() {
                     <h3>Picture Book Illustrations</h3>
                     <p>In addition to traditional and digital illustration techniques, we employ specialized design and drawing software, such as Adobe Creative Cloud and Procreate.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-3">
@@ -114,7 +110,6 @@ export default function Home() {
                     <h3>Training Manual Illustration</h3>
                     <p>Book Bridge Studio recognizes that visuals help facilitate comprehension for many individuals. We convert text from training manuals into images, which may be simple or elaborate based on the complexity of the content, the instructions, and the task specifications.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-3">
@@ -123,7 +118,6 @@ export default function Home() {
                     <h3>Comic Book Illustrations</h3>
                     <p>Our team is immersed in comic and animation trends in order to create dramatic sketch, ink, color, and inventive caption illustrations that capture the evocative spirit of the genre while stretching artistic boundaries. It contains typography, word balloons, characters, and backgrounds reflecting the digital essence of the evolution of the comic industry.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mb-3">
@@ -132,7 +126,6 @@ export default function Home() {
                     <h3>Book Cover Illustrations</h3>
                     <p>Book Bridge Studio takes a balanced approach to cover illustration design for text, title, and images in order to ensure the layout and typography that attracts readers and effectively communicates key book themes.</p>
                   </div>
-                  <a href="book-publishing/index.html" className="read-txt">Read More</a>
                 </div>
               </div>
 
@@ -148,8 +141,8 @@ export default function Home() {
                 <h2 className="mheading">Take your book to the next level with our help</h2>
                 <p>We&apos;ll turn your thoughts into a carefully crafted and critically acclaimed book</p>
                 <div className="btngroup">
-                  <Button variant="black" className="me-2 mb-2" href="tel:1230004444">Call Us 123-000-4444</Button>
-                  <Button variant="outline" className="me-2 mb-2">Live Chat</Button>
+                  <Button variant="black" className="me-2" href="tel:3236140274">Call Us (323) 614-0274</Button>
+                  <Button variant="outline" className="me-2">Live Chat</Button>
                   <ModalForm />
                 </div>
               </Col>
